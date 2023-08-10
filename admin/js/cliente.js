@@ -167,27 +167,27 @@ export function save()
 
         //Continuamos llenando los datos del objecto 
 
-        
-        //cliente
-        cli.email = document.getElementById("txtEmailCli").value;
-        cli.fechaRegistro = document.getElementById("txtFechaRegistroCli").value;
-        cli.estatus = document.getElementById("txtEstatusCli").value;
+    cli.id = document.getElementById("txtIdCli").value;
+    cli.persona.id = document.getElementById("txtIdCliPersona").value ;
+    //cliente
+    cli.nombre = document.getElementById("txtEmailCli").value;
+    cli.fechaRegistro = document.getElementById("txtFechaRegistroCli").value;
+    cli.estatus = document.getElementById("txtEstatusCli").value;
 
-        //Datos de persona
-        cli.persona.nombre = document.getElementById("txtNombreCli").value;
-        cli.persona.apellidoPaterno = document.getElementById("txtApellidoPaCli").value;
-        cli.persona.apellidoMaterno = document.getElementById("txtApellidoMaCli").value;
-        cli.persona.genero = document.getElementById("cmbGenero").value = '';
-        cli.persona.fechaNacimiento = document.getElementById("txtFechaNaciCli").value = '';
-        cli.persona.rfc = document.getElementById("txtRfcCli").value = '';
-        cli.persona.curp = document.getElementById("txtCurpCli").value = '';
-        cli.persona.domicilio = document.getElementById("txtDireccionCli").value = '';
-        cli.persona.codigoPostal = document.getElementById("txtCodigoPostalCli").value = '';
-        cli.persona.ciudad = document.getElementById("txtCiudadCli").value = '';
-        cli.persona.estado = document.getElementById("txtEstadoCli").value = '';
-        cli.persona.telefono = document.getElementById("txtTelefonoCli").value = '';
-//      cli.persona.foto = document.getElementById("").value = '';
-
+    //Datos de PERSONA
+    cli.persona.nombre = document.getElementById("txtNombreCli").value;
+    cli.persona.apellidoPaterno = document.getElementById("txtApellidoPaCli").value;
+    cli.persona.apellidoMaterno = document.getElementById("txtApellidoMaCli").value;
+    cli.persona.genero = document.getElementById("cmbGenero").value;
+    cli.persona.fechaNacimiento = document.getElementById("txtFechaNaciCli").value;
+    cli.persona.rfc = document.getElementById("txtRfcCli").value;
+    cli.persona.curp = document.getElementById("txtCurpCli").value;
+    cli.persona.domicilio = document.getElementById("txtDireccionCli").value;
+    cli.persona.codigoPostal = document.getElementById("txtCodigoPostalCli").value;
+    cli.persona.ciudad = document.getElementById("txtCiudadCli").value;
+    cli.persona.estado = document.getElementById("txtEstadoCli").value;
+    cli.persona.telefono = document.getElementById("txtTelefonoCli").value;
+//    document.getElementById("").value = cli.persona.foto;
 
 
         //Refrescamos el catalogo de cliente:
