@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>SICEFA_Sucursal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="description" content="P&aacute;gina SICEFA Scursal">
+        <meta name="keywords" content="Sucursales, Productos y Seguimiento de pedidos de compras ">
+        <meta name="author" content="Andrea Gudalupe Concha D&iacute;az   22000944,
+              Alondra Goretti Martinez Saldaña     22001414,
+              Israel de Jesús Lira Navarro         22001353,
+              Angela Guadalupe Fernandez Gonzalez  22002375,
+              Brian Fernando Torres Chico          22001691 ">
+
+        <!-- Agregamos las referencias de Boostrap -->
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="style/bootstrap/css/bootstrap-grid.min.css">
+        <!-- Agregamos la referencia  de SweetAlert2 -->
+
+        <link rel="stylesheet" href="style/sweetalert2/sweetalert2.min.css">
+
+        <!-- Link para los iconos -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        
+        <style>
+            .card{
+
+                margin: auto;
+                background: #eee;
+
+                border: 2px solid transparent;
+
+                -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+                -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+                border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+
+                border-image-slice: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row"> 
+            <div class="col-12 mt-2"> 
+                <div class="card"> 
+                    <div class="card-header d-flex justify-content-center"> 
+                        <h3>M&oacute;dulo Gesti&oacute;n de Pedidos de Compra</h3> 
+                        
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header"> 
+                                    <h4 class="card-title mt-3" style="color: #000">Nombre Completo:</h4>
+                                    <h4 class="card-title mt-3" style="color: #000">Nombre Sucursal:</h4>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Producto</th>
+                                                <th>Cantidad</th>
+                                                <th>Fecha</th>
+                                                <th>Hora</th>
+                                                
+                                            </tr>   
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Naproxeno<i class="bi bi-chevron-compact-down"></i></td>
+                                                <td>50</td>
+                                                <td>10-08-2023</td>
+                                                <td>9:00 am</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>Paracetamol<i class="bi bi-chevron-compact-down"></i></td>
+                                                <td>100</td>
+                                                <td>25-07-2023</td>
+                                                <td>11:00 am</td>
+                                                
+                                            </tr>   
+                                            <tr>
+                                                <td>Ambroxol<i class="bi bi-chevron-compact-down"></i></td>
+                                                <td>150</td>
+                                                <td>20-06-2023</td>
+                                                <td>3:00 pm</td>
+                                                
+                                            </tr>    
+                                        </tbody>
+                                        
+                                        
+                                    </table>
+                                    <div class="row mt-3"> 
+                                                <div class="col-12 justify-content-center"> 
+                                                    <div class="text-center"> 
+                                                        <button class="btn btn-primary me-2"><i class="bi bi-arrow-up"></i>Subir</button>
+                                                        <button class="btn btn-primary me-2"><i class="bi bi-plus-circle"></i> Ingresar</button>
+                                                        
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header"> 
+                                    <h4>Catalago de Pedido Compra</h4>
+                                    
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Pedidos</th>
+                                                <th>Proceso</th>
+                                                
+                                                
+                                            </tr>   
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Pedido 1</td>
+                                                <td style="color:#6CB31D">Atendido</td>
+                                                                                                
+                                            </tr>
+                                            <tr>
+                                                <td>Pedido 2</td>
+                                                <td style="color:#dc3545">Cancelado</td>
+                                                
+                                                
+                                            </tr>   
+                                            <tr>
+                                                <td>Pedido 3</td>
+                                                <td style="color: #ffcd39">Pendiente</td>
+                                                                                                
+                                            </tr>    
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    </body>
+                    </html>
